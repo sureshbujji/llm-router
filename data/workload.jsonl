@@ -1,0 +1,40 @@
+{"id": "t001", "prompt": "Summarize the Q3 sales report highlights in three bullet points.", "complexity": 2.5, "min_quality": 0.75, "category": "summarization"}
+{"id": "t002", "prompt": "Summarize the highlights of the Q3 sales report in three bullet points.", "complexity": 2.5, "min_quality": 0.75, "category": "summarization"}
+{"id": "t003", "prompt": "Classify this support ticket as billing, technical, or account: 'Charged twice for my annual plan.'", "complexity": 1.5, "min_quality": 0.7, "category": "classification"}
+{"id": "t004", "prompt": "Classify the following support ticket as billing, technical, or account: 'Charged twice for my annual plan.'", "complexity": 1.5, "min_quality": 0.7, "category": "classification"}
+{"id": "t005", "prompt": "What is the refund policy for annual plans cancelled within 30 days?", "complexity": 2.0, "min_quality": 0.7, "category": "qa"}
+{"id": "t006", "prompt": "What is the refund policy for annual plans canceled within 30 days?", "complexity": 2.0, "min_quality": 0.7, "category": "qa"}
+{"id": "t007", "prompt": "Draft a polite follow-up email to a customer about their overdue invoice.", "complexity": 3.0, "min_quality": 0.75, "category": "writing"}
+{"id": "t008", "prompt": "Draft a polite follow-up email to a customer regarding their overdue invoice.", "complexity": 3.0, "min_quality": 0.75, "category": "writing"}
+{"id": "t009", "prompt": "Translate 'order confirmation' to Spanish.", "complexity": 1.0, "min_quality": 0.7, "category": "translation"}
+{"id": "t010", "prompt": "Translate 'order confirmation' to Spanish.", "complexity": 1.0, "min_quality": 0.7, "category": "translation"}
+{"id": "t011", "prompt": "Extract the order number, date, and total from this receipt text: 'Order #88412 placed 2026-08-14 total $129.99'.", "complexity": 2.0, "min_quality": 0.75, "category": "extraction"}
+{"id": "t012", "prompt": "Rewrite this status update in a more professional tone: 'we shipped the thing, it works now'.", "complexity": 2.5, "min_quality": 0.75, "category": "writing"}
+{"id": "t013", "prompt": "List five common causes of a failing CI build.", "complexity": 3.0, "min_quality": 0.75, "category": "qa"}
+{"id": "t014", "prompt": "Convert this meeting time to three timezones: 2pm Pacific on Friday.", "complexity": 2.0, "min_quality": 0.7, "category": "qa"}
+{"id": "t015", "prompt": "Is this review positive or negative: 'Battery life is great but the app crashes daily'?", "complexity": 1.5, "min_quality": 0.7, "category": "classification"}
+{"id": "t016", "prompt": "Generate three subject lines for a product launch email about noise-cancelling headphones.", "complexity": 3.5, "min_quality": 0.8, "category": "writing"}
+{"id": "t017", "prompt": "Explain the difference between unit tests and integration tests in two sentences.", "complexity": 3.0, "min_quality": 0.75, "category": "qa"}
+{"id": "t018", "prompt": "Write a one-paragraph product description for a stainless steel water bottle.", "complexity": 3.5, "min_quality": 0.8, "category": "writing"}
+{"id": "t019", "prompt": "Design a test plan outline for a checkout flow with guest, member, and promo-code paths.", "complexity": 4.5, "min_quality": 0.8, "category": "test-planning"}
+{"id": "t020", "prompt": "Write pytest unit tests for a retry decorator with exponential backoff and jitter.", "complexity": 5.0, "min_quality": 0.85, "category": "code"}
+{"id": "t021", "prompt": "Debug this flaky test: it passes locally but fails in CI with a 30s timeout on the login step. Suggest three root causes and fixes.", "complexity": 5.5, "min_quality": 0.85, "category": "debugging"}
+{"id": "t022", "prompt": "Summarize this 2000-word incident postmortem into root cause, timeline, and five action items.", "complexity": 4.5, "min_quality": 0.8, "category": "summarization"}
+{"id": "t023", "prompt": "Compare REST vs GraphQL for a mobile app with offline sync requirements; recommend one.", "complexity": 5.0, "min_quality": 0.85, "category": "analysis"}
+{"id": "t024", "prompt": "Write a SQL query to find duplicate customer records by fuzzy email match in Postgres.", "complexity": 4.5, "min_quality": 0.8, "category": "code"}
+{"id": "t025", "prompt": "Draft an RFC for adding semantic caching to our LLM gateway, including hit-rate targets.", "complexity": 5.5, "min_quality": 0.85, "category": "writing"}
+{"id": "t026", "prompt": "Explain how a Bloom filter works and when you would prefer it over a hash set.", "complexity": 4.0, "min_quality": 0.8, "category": "qa"}
+{"id": "t027", "prompt": "Architect an eval harness for an LLM coding agent: dataset design, judge rubric, regression gating in CI.", "complexity": 8.5, "min_quality": 0.9, "category": "ai-eval"}
+{"id": "t028", "prompt": "Review this 400-line pull request for race conditions in the connection pool and propose a fix.", "complexity": 7.5, "min_quality": 0.9, "category": "code-review"}
+{"id": "t029", "prompt": "Prove or find a counterexample: does this Paxos variant guarantee safety under asymmetric partitions?", "complexity": 9.5, "min_quality": 0.9, "category": "reasoning"}
+{"id": "t030", "prompt": "Design a chaos experiment to validate failover of a multi-region Kafka deployment.", "complexity": 7.0, "min_quality": 0.85, "category": "test-planning"}
+{"id": "t031", "prompt": "Write a formal threat model for an MCP tool server that executes untrusted code.", "complexity": 8.0, "min_quality": 0.9, "category": "security"}
+{"id": "t032", "prompt": "Optimize this slow Spark job: 6-hour runtime, skewed joins, 2TB shuffle. Propose a plan.", "complexity": 7.5, "min_quality": 0.9, "category": "debugging"}
+{"id": "t033", "prompt": "Derive the backpropagation update rules for a transformer attention layer from scratch.", "complexity": 9.0, "min_quality": 0.9, "category": "reasoning"}
+{"id": "t034", "prompt": "Design a migration plan from a monolith to microservices with zero-downtime deploy constraints.", "complexity": 7.0, "min_quality": 0.85, "category": "architecture"}
+{"id": "t035", "prompt": "Analyze this distributed trace for tail-latency contributors across 12 services.", "complexity": 6.5, "min_quality": 0.85, "category": "debugging"}
+{"id": "t036", "prompt": "Write a property-based test suite for a CRDT shopping cart with merge semantics.", "complexity": 6.0, "min_quality": 0.85, "category": "code"}
+{"id": "t037", "prompt": "Evaluate two LLM judges for agreement with human labels and compute Cohen's kappa.", "complexity": 8.0, "min_quality": 0.9, "category": "ai-eval"}
+{"id": "t038", "prompt": "Design the sharding strategy for a 10PB time-series store with 5ms p99 reads.", "complexity": 8.5, "min_quality": 0.9, "category": "architecture"}
+{"id": "t039", "prompt": "Explain why this Raft log compaction scheme can lose committed entries, with a trace.", "complexity": 9.0, "min_quality": 0.9, "category": "reasoning"}
+{"id": "t040", "prompt": "Build a cost model comparing self-hosted GPUs vs managed inference for 1B tokens/day.", "complexity": 6.5, "min_quality": 0.85, "category": "analysis"}
